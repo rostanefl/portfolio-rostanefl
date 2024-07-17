@@ -1,0 +1,31 @@
+.header {
+    background-color: #f8f9fa;
+    padding: 1rem;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0.8rem;
+  }
+  
+  .navItem {
+    margin: 0 1rem;
+  }
+  
+  .navItem a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .navItem a:hover {
+    background-color: #ddd;
+    color: #333;
+  }
+  
