@@ -1,0 +1,17 @@
+.authContainer {
+    padding: 2rem;
+  }
+  
+  .authForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .error {
+    color: red;
+  }
+  
